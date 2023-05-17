@@ -4,7 +4,6 @@ import makeWASocket, {
 } from "@adiwajshing/baileys";
 import { Boom } from "@hapi/boom";
 import axios from "axios";
-import { Socket } from "dgram";
 import { Request, RequestHandler, Response } from "express";
 import qr from "qr-image";
 // @ts-ignore
